@@ -9,9 +9,11 @@ pipeline{
             }
         }
         stage("sonar scan"){
+            steps{
 
             echo "sonar need to be integrte"
 
+            }
         }
     }
 }
